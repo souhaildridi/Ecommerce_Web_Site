@@ -1,0 +1,26 @@
+ 
+<section class="form-container">
+
+<form action="" enctype="multipart/form-data" method="POST">
+   <h3>register now</h3>
+   <input type="text" name="name" class="box" placeholder="Enter Your Name" required>
+   <input type="email" name="email" class="box" placeholder="Enter Your Email" required>
+   <input type="password" name="pass" class="box" placeholder="Enter Your Password" required>
+   <input type="password" name="cpass" class="box" placeholder="Confirm Your Password" required>
+   <input type="file" name="image" class="box" required accept="image/jpg, image/jpeg, image/png">
+   <input type="submit" value="Register Now" class="btn" name="submit">
+   <p>already have an account? <a href="login.php">login now</a></p>
+</form>
+
+</section>
+
+ <script>
+   $('section').ripples({
+      resolution: 512,
+      dropRadius: 20, //px
+      perturbance: 0.04,
+   });
+ </script>
+
+</body>
+</html>
